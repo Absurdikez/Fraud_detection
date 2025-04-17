@@ -20,8 +20,8 @@ Each record represents a single transaction with the following features:
 | type | text | Transaction type: CASH-IN, CASH-OUT, DEBIT, PAYMENT, or TRANSFER |
 | amount | double | Transaction amount in local currency |
 | nameOrig | text | Customer who initiated the transaction |
-| oldbalanceOrg | double | Initial balance before the transaction |
-| newbalanceOrig | double | New balance after the transaction |
+| oldBalanceOrig | double | Initial balance before the transaction |
+| newBalanceOrig | double | New balance after the transaction |
 | nameDest | text | Recipient of the transaction |
 | oldbalanceDest | double | Initial recipient balance before transaction (not available for Merchants) |
 | newbalanceDest | double | New recipient balance after transaction (not available for Merchants) |
