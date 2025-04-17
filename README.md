@@ -26,7 +26,6 @@ Each record represents a single transaction with the following features:
 | oldbalanceDest | double | Initial recipient balance before transaction (not available for Merchants) |
 | newbalanceDest | double | New recipient balance after transaction (not available for Merchants) |
 | isFraud | int | Target variable: fraudulent (1) or legitimate (0) transaction |
-| isFlaggedFraud | int | System flag for attempts to transfer more than 200,000 in one transaction (0/1) |
 
 ### Transaction Types Explained
 - **CASH-IN**: Increasing account balance by paying cash to a Merchant
